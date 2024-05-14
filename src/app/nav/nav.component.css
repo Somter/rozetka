@@ -1,0 +1,26 @@
+img{
+    width: 105px;
+}
+
+.img-block{
+    display: flex;
+   justify-content: space-around;
+}
+
+.image{
+    width: 130px;
+    margin-top: 50px;
+    opacity: 50%;
+    border-right: solid 1px rgb(175, 174, 174);
+    transition: opacity 0.5s ease
+}
+.image-log{
+   margin-top: 30px;
+   width: 130px;
+   opacity: 40%;
+}
+
+.image-log:hover,
+.image:hover{
+    opacity: 100%;
+}
